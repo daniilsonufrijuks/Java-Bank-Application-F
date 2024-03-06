@@ -1,7 +1,12 @@
-package main.java.com.bankapp.view;
-
+package view;
 
 import javax.swing.*;
+
+import controller.Login;
+import controller.REGEXManager;
+import controller.Registration;
+import model.Person;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,7 +29,7 @@ public class GUILogReg extends JFrame implements ActionListener {
     JCheckBox showPCode = new JCheckBox("Show PCode");
 
 
-    GUILogReg() {
+    public GUILogReg() {
         setLayoutManager();
         setLocationAndSize();
         addComponentsToContainer();

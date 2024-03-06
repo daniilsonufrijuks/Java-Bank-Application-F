@@ -1,4 +1,4 @@
-package main.java.com.bankapp.controller;
+package controller;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Login {
     // method which checks if the given fileds are in the file
-    boolean login(String name, String lastname, String personcode, String email, String nickname) {
+    public boolean login(String name, String lastname, String personcode, String email, String nickname) {
         // Person person = new Person();
         // try {
         //     File myObj = new File("person.csv");

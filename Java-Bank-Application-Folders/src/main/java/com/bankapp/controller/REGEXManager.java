@@ -1,4 +1,4 @@
-package main.java.com.bankapp.controller;
+package controller;
 
 
 public class REGEXManager {

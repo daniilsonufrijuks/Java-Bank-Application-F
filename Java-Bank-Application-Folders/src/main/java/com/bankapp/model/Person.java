@@ -1,4 +1,5 @@
-package main.java.com.bankapp.model;
+package model;
+
 
 public class Person {
     private String name;

@@ -1,4 +1,5 @@
-package main.java.com.bankapp.controller;
+package controller;
+
 
 import java.util.Random;
 import java.util.UUID;

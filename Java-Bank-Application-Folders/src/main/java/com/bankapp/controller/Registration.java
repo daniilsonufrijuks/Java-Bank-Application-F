@@ -1,4 +1,5 @@
-package main.java.com.bankapp.controller;
+package controller;
+
 
 import java.io.File;
 import java.io.FileReader;
@@ -6,10 +7,12 @@ import java.io.FileWriter;   // Import the FileWriter class
 import java.io.IOException;  // Import the IOException class to handle errors
 import java.util.Scanner;
 
+import model.Person;
+
 public class Registration{      // Registration lass
 
     // method writes to file given fields through person 
-    static void WriteToAFile(Person personToWriteIn){
+    public void WriteToAFile(Person personToWriteIn){
         try{
             PinKontGen gen = new PinKontGen();
             String pin1Str = String.valueOf(gen.GenPinS());
